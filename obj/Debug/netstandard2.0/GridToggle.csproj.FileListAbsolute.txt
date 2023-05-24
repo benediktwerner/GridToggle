@@ -1,0 +1,10 @@
+D:\dev\GridToggle\bin\Debug\netstandard2.0\GridToggle.deps.json
+D:\dev\GridToggle\bin\Debug\netstandard2.0\GridToggle.dll
+D:\dev\GridToggle\bin\Debug\netstandard2.0\GridToggle.pdb
+D:\dev\GridToggle\obj\Debug\netstandard2.0\GridToggle.csproj.AssemblyReference.cache
+D:\dev\GridToggle\obj\Debug\netstandard2.0\GridToggle.GeneratedMSBuildEditorConfig.editorconfig
+D:\dev\GridToggle\obj\Debug\netstandard2.0\GridToggle.AssemblyInfoInputs.cache
+D:\dev\GridToggle\obj\Debug\netstandard2.0\GridToggle.AssemblyInfo.cs
+D:\dev\GridToggle\obj\Debug\netstandard2.0\GridToggle.csproj.CoreCompileInputs.cache
+D:\dev\GridToggle\obj\Debug\netstandard2.0\GridToggle.dll
+D:\dev\GridToggle\obj\Debug\netstandard2.0\GridToggle.pdb
