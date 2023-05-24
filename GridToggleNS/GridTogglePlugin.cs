@@ -68,8 +68,13 @@ public class GridTogglePlugin : BaseUnityPlugin
 	
 	[HarmonyPatch(typeof(WorldManager), "SnapCardsToGrid")]
 	[HarmonyPrefix]
-	public static bool WorldManager_SnapCardsToGrid_Prefix(WorldManager __instance)
+	public static bool WorldManager_SnapCardsToGrid_Prefix(WorldManager __instance, bool __runOriginal)
 	{
+		if (!__runOriginal) {
+			// The FixGrid mod already performed the snapping
+			return;
+		}
+
 		__instance.gridAlpha = 1f;
 		foreach (GameCard allCard in __instance.AllCards)
 		{
