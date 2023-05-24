@@ -72,7 +72,7 @@ public class GridTogglePlugin : BaseUnityPlugin
 	{
 		if (!__runOriginal) {
 			// The FixGrid mod already performed the snapping
-			return;
+			return false;
 		}
 
 		__instance.gridAlpha = 1f;
